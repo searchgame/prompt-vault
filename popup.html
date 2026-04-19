@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prompt Manager</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+  <div id="mainView" class="container">
+    <div class="header">
+      <h1>Prompts</h1>
+      <button id="newEntryBtn">New</button>
+    </div>
+    <div class="filters">
+      <input type="text" id="searchInput" placeholder="Fuzzy search...">
+      <select id="tagFilter"><option value="">All Tags</option></select>
+    </div>
+    <div id="promptsList"></div>
+    <div class="footer">
+      <label class="file-input-label">Import <input type="file" id="importInput" accept=".json"></label>
+      <button id="exportBtn">Export</button>
+    </div>
+  </div>
+
+  <div id="formView" class="container hidden">
+    <h2 id="formTitle">New Prompt</h2>
+    <input type="hidden" id="promptId">
+    <input type="text" id="newTitle" placeholder="Title" required>
+    <textarea id="newPrompt" placeholder="Prompt with #variables#..." required rows="5"></textarea>
+    <input type="text" id="newTags" placeholder="Tags (comma-separated)">
+    <div class="form-actions">
+      <button id="cancelBtn">Cancel</button>
+      <button id="saveBtn">Save</button>
+    </div>
+  </div>
+
+  <div id="variableModal" class="modal-backdrop hidden">
+    <div class="modal">
+      <h2>Fill in Variables</h2>
+      <div id="variableInputs"></div>
+      <div class="form-actions">
+        <button id="cancelVariableBtn">Cancel</button>
+        <button id="copyBtn">Generate & Copy</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./lib/fuse.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
