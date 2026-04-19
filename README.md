@@ -21,14 +21,17 @@ A simple Chrome extension for storing, organizing, and reusing text prompts. Sav
 4. Use the search bar or tag dropdown to filter your prompts.
 5. Right-click any selected text on a page and choose **"Save as Prompt"** to pre-fill the form.
 
-<img src="/../main/prompt-vault-overview.png" width="300">
+<img src="/../main/prompt-vault-overview.png" width="500">
 
 ### Variable syntax
 
 Wrap placeholder names in `#` signs inside a prompt body:
 
+<img src="/../main/prompt-vault-create-new.png" width="500">
 
-When you click this prompt, you'll be asked to fill in `language`, `tone`, and `text` before the final prompt is copied.
+For example when you click this prompt, you'll be asked to fill in the variables `broad_topic`, `target_group`, `country`, and `language` before the final prompt is copied.
+
+<img src="/../main/prompt-vault-fill-variables.png" width="500">
 
 ## Project structure
 
