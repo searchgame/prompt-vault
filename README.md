@@ -1,5 +1,7 @@
 # Prompt Vault
 
+<img src="/../main/pv-logo.PNG" width="300">
+
 A Chrome extension for storing, organizing, and reusing text prompts. Save prompts with titles and tags, then copy them to your clipboard in one click. Supports `#variable#` placeholders that get filled in via a modal before copying.
 
 ## Features
