@@ -9,9 +9,9 @@ A simple Chrome extension for storing, organizing, and reusing text prompts. Sav
 - **Save & organize prompts** with titles and comma-separated tags
 - **Fuzzy search** across prompt titles, bodies, and tags (powered by Fuse.js)
 - **Tag filtering** to browse prompts by category
-- **Variable substitution** — use `#variableName#` in any prompt and fill values in at copy time
-- **Right-click to save** — select text on any webpage and save it as a new prompt via the context menu
-- **Import / Export** — back up and restore your prompts as a JSON file
+- **Variable substitution**: use `#variableName#` in any prompt and fill values in at copy time
+- **Right-click to save**: select text on any webpage and save it as a new prompt via the context menu
+- **Import / Export**: back up and restore your prompts as a JSON file
 
 ## Usage
 
