@@ -4,6 +4,16 @@
 
 A simple Chrome extension for storing, organizing, and reusing text prompts. Save prompts with titles and tags, then copy them to your clipboard in one click. Supports `#variable#` placeholders that get filled in via a modal before copying.
 
+> [!WARNING]
+> Obviously, this is NOT a password manager. DO NOT use it to store any sensitive data (passwords, credit card numbers, API keys, etc.)
+
+> [!TIP]
+> What you can use it for instead:
+> - LLM Prompts
+> - Regular Expressions
+> - bash commands
+> - ... basically, anything to complex or lengthy to remember and that you want to access in 2 clicks
+
 ## Features
 
 - **Save & organize prompts** with titles and comma-separated tags
