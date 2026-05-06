@@ -12,7 +12,7 @@ A simple Chrome extension for storing, organizing, and reusing text prompts. Sav
 > - LLM Prompts
 > - Regular Expressions
 > - bash commands
-> - ... basically, anything to complex or lengthy to remember and that you want to access in 2 clicks
+> - ... basically, anything too complex or lengthy to remember and that you want to access in 2 clicks
 
 ## Features
 
